@@ -2066,3 +2066,23 @@ nav .navbar-nav li:last-child a {
     width: 150px;
     padding: 20px;
 }
+@media (max-width: 768px) {
+    .table-responsive table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .table-responsive table tr {
+      display: block;
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  
+    .table-responsive table td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0.5em;
+      border: 1px solid #ddd;
+    }
+  }
